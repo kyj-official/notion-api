@@ -1,0 +1,30 @@
+{
+  "name": "notion-api-loginapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "destr": "^2.0.5",
+    "eventemitter3": "^5.0.4",
+    "is-url-superb": "^6.1.0",
+    "memoize": "^10.2.0",
+    "mimic-function": "^5.0.1",
+    "node-fetch-native": "^1.6.7",
+    "normalize-url": "^8.1.1",
+    "notion-client": "^7.8.3",
+    "notion-types": "^7.8.3",
+    "notion-utils": "^7.8.3",
+    "ofetch": "^1.5.1",
+    "p-map": "^7.0.4",
+    "p-queue": "^8.1.1",
+    "p-timeout": "^6.1.4",
+    "ufo": "^1.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}

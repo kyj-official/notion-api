@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        async function handler(){
+            try{
+                const res = await fetch('/api/notion-api.js?pageId=317592b7f63a80c69ed6e82ef4176f7d');
+                console.log(res);
+            }
+            catch(e){
+                console.error(e);
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome!! Check your developer tab(Click F12)</h1>
+</body>
+</html>
